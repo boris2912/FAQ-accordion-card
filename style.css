@@ -1,0 +1,68 @@
+*{
+    list-style: none;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+}
+
+.container{
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    display: flex;
+    padding: 100px 200px;
+    justify-content: center;
+}
+
+.card{
+    width: 800px;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    border-radius: 30px;
+}
+.image{
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    width: 50%;
+    background-size: contain;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    translate: -80px;
+}
+
+.image img{
+    width: 100%;
+    padding: 50px 0;
+}
+
+ul{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+li:hover{
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    align-items: center;
+}
+
+li img{
+    height: 10px;
+    width: 10px;
+}
+
+.faq{
+    width: 50%;
+    padding: 30px 50px 30px 0;
+}
+h1{
+    font-size: 24px;
+}
+
+.dropdownContent{
+    display: none;
+}
